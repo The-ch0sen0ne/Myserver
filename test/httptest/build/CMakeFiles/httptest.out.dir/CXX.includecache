@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../connectionbuffer.h
+string
+-
+vector
+-
+assert.h
+-
+algorithm
+-
+
+../../../httpcontext.h
+httprequest.h
+../../../httprequest.h
+connectionbuffer.h
+../../../connectionbuffer.h
+
+../../../httprequest.h
+string
+-
+map
+-
+
+/mnt/c/Users/chosen 1/Desktop/http/test/httptest/httptest.cpp
+httpcontext.h
+/mnt/c/Users/chosen 1/Desktop/http/test/httptest/httpcontext.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/buffertest.out.dir/buffertest.cpp.o CMakeFiles/buffertest.out.dir/mnt/c/Users/chosen_1/Desktop/http/connectionbuffer.cpp.o  -o buffertest.out 

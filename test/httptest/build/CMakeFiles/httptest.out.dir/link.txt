@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -Wall -g2 -ggdb   -rdynamic CMakeFiles/httptest.out.dir/httptest.cpp.o CMakeFiles/httptest.out.dir/mnt/c/Users/chosen_1/Desktop/http/httpcontext.cpp.o CMakeFiles/httptest.out.dir/mnt/c/Users/chosen_1/Desktop/http/connectionbuffer.cpp.o  -o httptest.out 

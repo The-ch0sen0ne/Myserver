@@ -1,0 +1,3 @@
+/mnt/c/Users/i8057/Desktop/http/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/i8057/Desktop/http/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/i8057/Desktop/http/build/CMakeFiles/http.out.dir

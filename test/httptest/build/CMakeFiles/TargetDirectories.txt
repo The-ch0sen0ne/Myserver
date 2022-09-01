@@ -1,0 +1,3 @@
+/mnt/c/Users/chosen 1/Desktop/http/test/httptest/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/chosen 1/Desktop/http/test/httptest/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/chosen 1/Desktop/http/test/httptest/build/CMakeFiles/httptest.out.dir

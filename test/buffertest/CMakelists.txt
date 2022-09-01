@@ -1,0 +1,46 @@
+cmake_minimum_required(VERSION 2.6)
+
+
+project(buffertest)
+
+SET(SRC_LIST buffertest.cpp ../../connectionbuffer.cpp)
+
+
+# 指定头文件搜索路径
+include_directories(../../)
+
+#指定库目录
+# LINK_DIRECTORIES(/home/chosenone/test/build/release-install-cpp11/lib)
+
+
+
+#调试设置
+# SET(CMAKE_BUILD_TYPE "Debug")
+# SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")
+# SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
+
+
+##设置编译选项
+# set(CXX_FLAGS
+#  -g
+#  # -DVALGRIND
+#  -DCHECK_PTHREAD_RETURN_VALUE
+#  -D_FILE_OFFSET_BITS=64
+#  -Wall
+#  -Wextra
+#  -Werror
+#  -Wconversion
+#  -Wno-unused-parameter
+#  -Wold-style-cast
+#  -Woverloaded-virtual
+#  -Wpointer-arith
+#  -Wshadow
+#  -Wwrite-strings
+#  -march=native
+#  # -MMD
+#  -std=c++11
+#  -rdynamic
+#  )
+add_executable(buffertest.out ${SRC_LIST})
+
+
