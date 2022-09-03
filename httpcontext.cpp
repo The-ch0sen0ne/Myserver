@@ -3,6 +3,7 @@
 
 
 
+//解析请求行
 bool HttpContext::parseRequest(ConnectionBuffer* buf)
 {
     bool res = 1;
@@ -57,7 +58,13 @@ bool HttpContext::parseRequest(ConnectionBuffer* buf)
         }
         else if(state_ == kBody)
         {
-            //todo
+            //直接抛弃正文内容
+            std::string Length = request_.findHeader("Content-Length");
+            if(Length.size() != 0)
+            {
+                int len = std::stoi(Length);
+                 buf->retrive(len);
+            }
         }
     }
     

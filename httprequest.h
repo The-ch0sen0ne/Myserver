@@ -172,6 +172,14 @@ public:
         headers_.swap(next.headers_);
     }
 
+    std::string findHeader(const std::string& header)
+    {
+        if(headers_.find(header) == headers_.end())
+        return {};
+        else
+        return headers_[header];
+    }
+
 private:
     //ÇëÇó·½·¨
     Method method_;
